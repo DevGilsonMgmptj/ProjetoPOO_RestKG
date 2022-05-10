@@ -1,8 +1,11 @@
 // cardapio
 public class Cardapio{
     int idproduto;
+    String Tipo 
     double valorKg;
     double valorBebida;
+	 new Cardapio("1", 
+	public void 
 }
 //cartão magnetico
 @ -0,0 +1,26 @@
