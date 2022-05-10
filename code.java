@@ -1,18 +1,11 @@
-// cardapio
-public class Cardapio{
-    int idproduto;
-    String Tipo 
-    double valorKg;
-    double valorBebida;
-	 new Cardapio("1", 
-	public void 
-}
+
+
 //cartão magnetico
-@ -0,0 +1,26 @@
+
 public class CartMagnetico{
 
     boolean status;
-     Static ArrayList  consumo = new ArrayList() 
+     Static ArrayList  consumo = new ArrayList(Consumo) 
      
     //ideia criar metodo de adição dos produtos consumidos no cartão
     public boolean sacar(double valor){
@@ -21,34 +14,49 @@ public class CartMagnetico{
 	   try
 	   {
 		   if (this.status = 1){
-               double conta;
+			   
+			   double conta;
 
-               public void addConsumo (Cardapio valor){
-                   if( consumo == NULL ){  consumo = new ArrayList<consumo>(); }
-                   else ( consumo != NULL){ throw new NullPointerExcption("Cartão Invalido")}
+               				public void addConsumo (Cardapio valor){
+                  			 if( consumo == NULL ){  consumo = new ArrayList<consumo>(); }
+                  			 else ( consumo != NULL){ 
+						 throw new NullPointerExcption("Cartão Invalido")}
 
-                   this.consumo.add(consumo);
-                   system.out.println("Item adicionado");
+                  			 this.consumo.add(consumo);
+                   			system.out.println("Item adicionado");
                    }
                 }
 		 }
     }
     public List<consumo> getConsumo(){ return consumo;}  
+	
+// cardapio
+public class Cardapio{
+    int idproduto;
+    String Tipo 
+    double valorKg;
+    double valorBebida;
+}
+public static void main (String[] args){
+	 new Cardapio = new cardapio 
 }
 //consumo
-public class Consumo{
+public class Consumo extends Cardapio{
     int itemTipo;
-    double valorKg;
     double peso;
 
-
+	Scanner teclado = new Scanner(System.in);
+	System.out
     //Alimento
     if(itemTipo == 1){
          public double valorAlimento()
-
+	
+	    
+	    system.out.println (valorAlimento = (valorKg * peso);
+				
          double acrescimo = (valorAlimento* 0.1)+5.00; 
-         valorAlimento = (valorKg * peso)+ acrescimo;
-
+         	
+		system.out.println (valorAlimento = (acrescimo + valorAlimento);
     }
     //bebida
     else if(itemTipo = 2){
@@ -56,3 +64,4 @@ public class Consumo{
 
     }
 }
+		      }
