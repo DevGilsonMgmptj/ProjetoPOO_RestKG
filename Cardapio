@@ -1,0 +1,8 @@
+public class Cardapio{
+    int idproduto;
+    double valorKg;
+    double valorBebida;
+
+
+
+}

@@ -1,0 +1,20 @@
+public class Consumo{
+    int itemTipo;
+    double valorKg;
+    double peso;
+
+
+    //Alimento
+    if(itemTipo == 1){
+         public double valorAlimento()
+
+         double acrescimo = (valorAlimento* 0.1)+5.00; 
+         valorAlimento = (valorKg * peso)+ acrescimo;
+
+    }
+    //bebida
+    else if(itemTipo = 2){
+        //verificar cardapio de bebida e os valores;
+
+    }
+}
